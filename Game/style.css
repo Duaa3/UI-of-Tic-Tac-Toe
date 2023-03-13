@@ -1,3 +1,4 @@
+/* Setting default styles for all elements */
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +6,7 @@
 }
 
 .background {
-    background-color: #c7b3a1;
+    background-color: #d6bba5;
     height: 100vh;
     padding-top: 1px;
 }

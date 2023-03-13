@@ -1,3 +1,12 @@
+/*his code sets up a basic tic-tac-toe game. 
+It selects all the tiles on the game board, 
+as well as various other elements like the player display and reset button,
+ and initializes the game state. 
+ It then defines the winning conditions
+  for the game and creates functions to
+   handle validating the results of each move and updating the game board.
+ Finally, it sets up event listeners for
+ each tile and the reset button so that the user can interact with the game.*/
 window.addEventListener('DOMContentLoaded', () => {
     const tiles = Array.from(document.querySelectorAll('.tile'));
     const playerDisplay = document.querySelector('.display-player');
